@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+*, *:after, *:before {
+  /* sets box model to maintain box with */
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background:tan;
+  algin:center;
+}
+a {
+	text-decoration:none;
+	text-align:center;
+	}
+
+a:hover {
+	color:blue;
+	}
+a:active {
+	color:white;
+	}
+a:visited {
+	color:White;
+	}
+
+.centertype {
+	text-align:center;
+	}
+
+h1 {
+	font-family: 'Gudea', sans-serif;
+	font-size:19;
+	font-size:24px;
+	letter-spacing:.6px;
+	}
+	
+h2 {
+	font-family: 'Gudea', sans-serif;
+	}	
+
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	line-height:25px;
+	letter-spacing:.6px;
+	}
+
+nav ul {
+  list-style-type: none;
+  text-align:center;
+  margin:0px;
+  content-align:center;
+  background-color:
+}
+
+nav li {
+  float:left;
+  padding:10px 20px;
+}
+header {
+	text-align:center;
+	}
+
+.wrapper {
+  max-width:1000px; 
+  background:tan;
+  margin:0 auto;
+  padding: 0 13px;
+}
+
+[class*="column"] {
+  float: left;
+  padding: 0  18px;
+  
+}
+
+.grid:after {
+  /* clear item to expand to floating content */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* 12 colum grid */
+.column-1-12 { width: 8.33%; }
+.column-2-12 { width: 16.66%; }
+.column-3-12 { width: 25.00%; }
+.column-4-12 { width: 33.33%; }
+.column-5-12 { width: 41.66%; }
+.column-6-12 { width: 50%; }
+.column-7-12 { width: 58.33%; }
+.column-8-12 { width: 66.66%; }
+.column-9-12 { width: 75%; }
+.column-10-12 { width: 83.33%; }
+.column-11-12 { width: 91.66%; }
+.column-12-12 { width: 100%; }
+
+
